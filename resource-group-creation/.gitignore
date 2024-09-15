@@ -1,0 +1,22 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfstate.d/
+*.tfplan
+
+# Local .terraform directories
+.terraform/
+
+# Sensitive files
+*.tfvars
+*.tfstate
+
+# IDE or editor files
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
