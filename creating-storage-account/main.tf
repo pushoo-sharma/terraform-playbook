@@ -41,4 +41,7 @@ resource "azurerm_storage_account" "storage_account" {
   
   # The replication strategy for the storage account. LRS (Locally Redundant Storage) replicates data within a single region.
   account_replication_type = "LRS"
+
+  # Allow public access to blobs in the storage account
+  allow_blob_public_access = true
 }
